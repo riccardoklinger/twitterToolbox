@@ -1,5 +1,5 @@
 # twitterToolbox
-A arcpy toolbox for ArcGIS Pro
+An arcpy toolbox for ArcGIS Pro
 ## installation
 Simply grab the pyt file from this git by cloning or downloading the zip and place it in your current project folder.
 ## advice
