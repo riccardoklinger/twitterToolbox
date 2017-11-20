@@ -139,10 +139,10 @@ class Tool(object):
             arcpy.AddError("Check dependencies: tweepy, json")
         #setting the authentication:
         
-        consumerKey = "NWKn3f8OlCZRdRWgFbH3qAp66" #set your key here
-        consumerSecret = "qMykd89gs9r950hu2KPmITdQviJI7g7c2Qp3x3SsY1zdh5pHCf" #set your key here
-        accessToken = "3157760038-PpC8p8WxUU3yIneaQOXjFvwHP1GkLTKnLtWa18d" #set your key here
-        accessTokenSecret = "Qah73cKu30yFYV5Dzq28kBq79OoHw8F9p98fm0atsuK9x" #set your key here
+        consumerKey = "XXX" #set your key here
+        consumerSecret = "XXX" #set your key here
+        accessToken = "XXX" #set your key here
+        accessTokenSecret = "XXX" #set your key here
         key = tweepy.OAuthHandler(consumerKey, consumerSecret)
         key.set_access_token(accessToken, accessTokenSecret)
         api = tweepy.API(key, wait_on_rate_limit=True,wait_on_rate_limit_notify=True)
